@@ -2,7 +2,7 @@
 tags:
 ---
 
-# Component: `auth0`
+# Component: `auth0-app`
 
 Auth0 Application component. [Auth0](https://auth0.com/docs/) is a third-party service that provides authentication and
 authorization as a service. It is typically used to to authenticate users.
