@@ -5,3 +5,4 @@ repository:
   description: Auth0 Application component
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
