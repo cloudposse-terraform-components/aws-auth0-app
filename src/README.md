@@ -10,7 +10,6 @@ authorization as a service. It is typically used to to authenticate users.
 An Auth0 application is a client that can request authentication and authorization from an Auth0 server. Auth0
 applications can be of different types, such as regular web applications, single-page applications, machine-to-machine
 applications, and others. Each application has a set of allowed origins, allowed callback URLs, and allowed web origins.
-
 ## Usage
 
 Before deploying this component, you need to deploy the `auth0/tenant` component. This components with authenticate with
@@ -56,7 +55,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -139,14 +141,21 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_auth0_client_id"></a> [auth0\_client\_id](#output\_auth0\_client\_id) | The Auth0 Application Client ID |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/auth0) -
-  Cloud Posse's upstream component
-- [Auth0 Terraform Provider](https://registry.terraform.io/providers/auth0/auth0/latest/)
-- [Auth0 Documentation](https://auth0.com/docs/)
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+- [Auth0 Terraform Provider](https://registry.terraform.io/providers/auth0/auth0/latest/) - 
+
+- [Auth0 Documentation](https://auth0.com/docs/) - 
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-auth0-app&utm_content=)
+
